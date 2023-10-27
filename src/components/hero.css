@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#hero_section {
+    background-image: url("../assets/hero_image.jpg");
+    height: 600px;
+    background-size: cover;
+}
+
+#shop {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 1000px;
+}
+
+#box_1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+
+}
+
+#box_1>h3 {
+    margin-right: 11px;
+    margin-bottom: 11px;
+}
+
+#box_1>a {
+    margin-right: 180px;
+    margin-top: 10px;
+    color: #278798;
+    text-decoration: none;
+}
+
+#box_1>a:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+
+#box_2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+
+}
+
+#box_2>h3 {
+    margin-right: 133px;
+    margin-bottom: 11px;
+}
+
+#box_2>a {
+    margin-right: 180px;
+    margin-top: 10px;
+    color: #278798;
+    text-decoration: none;
+}
+
+#box_2>a:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+
+
+#box_3 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+
+}
+
+#box_3>h3 {
+    margin-right: 76px;
+    margin-bottom: 11px;
+}
+
+#box_3>a {
+    margin-right: 180px;
+    margin-top: 10px;
+    color: #278798;
+    text-decoration: none;
+}
+
+#box_3>a:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+
+#box_4 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+
+}
+
+#box_4>h3 {
+    margin-right: 147px;
+    margin-bottom: 11px;
+}
+
+#box_4>a {
+    margin-right: 180px;
+    margin-top: 10px;
+    color: #278798;
+    text-decoration: none;
+}
+
+#box_4>a:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+.box {
+    width: 300px;
+    height: 420px;
+}
