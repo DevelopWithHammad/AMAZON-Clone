@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: #e7e7e7;
+}
+
 
 #hero_section {
     background-image: url("../assets/hero_image.jpg");
@@ -17,7 +21,27 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    height: 1000px;
+    height: 1200px;
+
+}
+
+#section_1 {
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+    width: 1291px;
+}
+
+#section_2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 1291px;
+}
+
+.box {
+    width: 300px;
+    height: 420px;
 }
 
 #box_1 {
@@ -132,7 +156,116 @@
     text-decoration: underline;
 }
 
-.box {
+
+#box_5 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
     width: 300px;
-    height: 420px;
+
+}
+
+#box_5>h3 {
+    margin-right: 147px;
+    margin-bottom: 11px;
+}
+
+#box_5>a {
+    margin-right: 180px;
+    margin-top: 10px;
+    color: #278798;
+    text-decoration: none;
+}
+
+#box_5>a:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+
+
+#box_6 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+
+}
+
+#box_6>h3 {
+    margin-right: 147px;
+    margin-bottom: 11px;
+}
+
+#box_6>a {
+    margin-right: 180px;
+    margin-top: 10px;
+    color: #278798;
+    text-decoration: none;
+}
+
+#box_6>a:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+
+
+#box_7 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+
+}
+
+#box_7>h3 {
+    margin-right: 147px;
+    margin-bottom: 11px;
+}
+
+#box_7>a {
+    margin-right: 180px;
+    margin-top: 10px;
+    color: #278798;
+    text-decoration: none;
+}
+
+#box_7>a:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+
+
+#box_8 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+
+}
+
+#box_8>h3 {
+    margin-right: 62px;
+    margin-bottom: 11px;
+}
+
+#box_8>a {
+    margin-right: 180px;
+    margin-top: 10px;
+    color: #278798;
+    text-decoration: none;
+}
+
+#box_8>a:hover {
+    color: #C7511F;
+    text-decoration: underline;
 }
